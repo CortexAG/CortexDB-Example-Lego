@@ -30,6 +30,7 @@ If you installed the plugin for the dashboard admin tool, then you can also impo
 
 The templates configuration includes the following UniPlex configuration:
 
+```text
 	user template (for an admin user)
 	field templates
 	configuration for fields
@@ -37,32 +38,37 @@ The templates configuration includes the following UniPlex configuration:
 	configuration for portals (predefined selections)
 	configuration for search functions
 	list definitions
+```
 
 Data import
 -----------
 
 These files are from [Rebrickable](https://rebrickable.com/downloads/). Changes can be imported with the import configuration files (xml-configuration).
 
-	colors.csv
-	inventories.csv
-	inventory_parts.csv
-	inventory_sets.csv
-	part_categories.csv
-	parts.csv
-	sets.csv
-	themes.csv
+```text
+    colors.csv
+    inventories.csv
+    inventory_parts.csv
+    inventory_sets.csv
+    part_categories.csv
+    parts.csv
+    sets.csv
+    themes.csv
+```
 
 To import the csv files with the lego data, you need the Java Runtime "JRE" (version 8) and our import tool "ImPlex".
 
 **Please check th port of your database and the user for import and administration in the import configuration files.**
 
-	<Global>
-		<LoginIP>localhost</LoginIP>				<!-- IP or server name -->
-		<LoginPort>29000</LoginPort>				<!-- database port; also via parameter for implex available -->
-		<LoginUser>admin</LoginUser>				<!-- user -->
-		<LoginPW>admin</LoginPW>					<!-- password -->
-		<ImportModus>nu</ImportModus>				<!-- import mode; n, u, nu/un for new and/or update-->
-	</Global>
+```xml
+<Global>
+	<LoginIP>localhost</LoginIP>				<!-- IP or server name -->
+	<LoginPort>29000</LoginPort>				<!-- database port; also via parameter for implex available -->
+	<LoginUser>admin</LoginUser>				<!-- user -->
+	<LoginPW>admin</LoginPW>					<!-- password -->
+	<ImportModus>nu</ImportModus>				<!-- import mode; n, u, nu/un for new and/or update-->
+</Global>
+```
 
 From the main directory with the CortexDB bin files start the import. Here, for example, the import call for the colours:
 
@@ -70,14 +76,16 @@ From the main directory with the CortexDB bin files start the import. Here, for 
 
 Do this for each xml-import-configuration in the sub directory `./import-config`
 
-	import-colors.xml
-	import-inventories.xml
-	import-inventory_parts.xml
-	import-inventory_sets.xml
-	import-part_categories.xml
-	import-parts.xml
-	import-sets.xml
-	import-themes.xml
+```text
+    import-colors.xml
+    import-inventories.xml
+    import-inventory_parts.xml
+    import-inventory_sets.xml
+    import-part_categories.xml
+    import-parts.xml
+    import-sets.xml
+    import-themes.xml
+```
 
 **You'll geht one error in one of these files, because one of the csv-files has an invalid character in one line. This line will be ignored.**
 
