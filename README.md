@@ -58,7 +58,7 @@ These files are from [Rebrickable](https://rebrickable.com/downloads/). Changes 
 
 To import the csv files with the lego data, you need the Java Runtime "JRE" (version 8) and our import tool "ImPlex".
 
-**Please check th port of your database and the user for import and administration in the import configuration files.**
+**Please check the port of your database and the user for import and administration in the import configuration files.**
 
 ```xml
 <Global>
@@ -87,7 +87,7 @@ Do this for each xml-import-configuration in the sub directory `./import-config`
     import-themes.xml
 ```
 
-**You'll geht one error in one of these files, because one of the csv-files has an invalid character in one line. This line will be ignored.**
+**You'll get one error in one of these files, because one of the csv-files has an invalid character in one line. This line will be ignored.**
 
 After the import start the linker. This configuration creates the links between the datasets. 
 
