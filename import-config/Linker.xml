@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CtxImport>
+
+	<Global>
+		<LoginIP>localhost</LoginIP>
+		<LoginPort>29000</LoginPort>
+		<LoginUser>admin</LoginUser>
+		<LoginPW>admin</LoginPW>
+		<ImportModus>u</ImportModus>
+	</Global>
+  
+	<Linker>
+	
+		<!-- link inventory to Set -->
+		<Link>lInvSet=SetNum</Link>
+
+		<!-- link set to theme -->
+		<Link>lSetThm=IDtheme</Link>
+
+		<!-- link inventory-parts to inventory, part and colour -->
+		<Link>lInPInv=IDInv</Link>
+		<Link>lInPPrt=PrtNum</Link>
+		<Link>lInPCol=IDCol</Link>
+
+		<!-- link inventory-set to inventory an set -->
+		<Link>lIStInv=IDInv</Link>
+		<Link>lIStSet=SetNum</Link>
+
+		<!-- link part to part-category -->
+		<Link>lPrtCat=IDcat</Link>
+
+		<!-- link theme to theme-parent -->
+		<Link>lThmThm=IDtheme</Link>
+		
+	</Linker>
+  
+</CtxImport>

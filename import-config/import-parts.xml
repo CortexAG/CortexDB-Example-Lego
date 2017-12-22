@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CtxImport>
+
+	<Global>
+		<LoginIP>localhost</LoginIP>				<!-- IP or server name -->
+		<LoginPort>29000</LoginPort>				<!-- database port; also via parameter for implex available -->
+		<LoginUser>admin</LoginUser>				<!-- user -->
+		<LoginPW>admin</LoginPW>					<!-- password -->
+		<ImportModus>nu</ImportModus>				<!-- import mode; n, u, nu/un for new and/or update-->
+	</Global>
+
+	<ReaderModul typ="csv">
+		<Dateiname>./www/import-data/parts.csv</Dateiname>		<!-- relative path to implex in bin directory -->
+		<FeldTrenner>,</FeldTrenner>				<!-- field separator -->
+		<FeldBegrenzer>"</FeldBegrenzer>			<!-- field delimiter -->
+		<WdhlTrenner>;</WdhlTrenner>				<!-- seperator for repeated content in one field; e.g.: "email 1; email 2; email 3; ..." -->
+		<SpaltenModus>HEADER</SpaltenModus>			<!-- column mode HEADER, NUMERISCH, ABC -->
+		<Charset>UTF-8</Charset>
+	</ReaderModul>
+
+	<ImportSection datensatztyp="Part">
+		<Referenz>PrtNum</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>PrtNum=getChar('part_num')</Feld>
+		<Feld>PrtNam=substring(getChar('name'), 0, 220)</Feld> 	<!-- name of one part is too long, therefor cut at 220 byte -->
+		<Feld>lPrtCat=getChar('part_cat_id')</Feld>
+	</ImportSection>
+
+</CtxImport>

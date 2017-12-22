@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CtxImport>
+
+	<Global>
+		<LoginIP>localhost</LoginIP>				<!-- IP or server name -->
+		<LoginPort>29000</LoginPort>				<!-- database port; also via parameter for implex available -->
+		<LoginUser>admin</LoginUser>				<!-- user -->
+		<LoginPW>admin</LoginPW>					<!-- password -->
+		<ImportModus>nu</ImportModus>				<!-- import mode; n, u, nu/un for new and/or update-->
+	</Global>
+
+	<ReaderModul typ="csv">
+		<Dateiname>./www/import-data/inventory_parts.csv</Dateiname><!-- relative path to implex in bin directory -->
+		<FeldTrenner>,</FeldTrenner>				<!-- field separator -->
+		<FeldBegrenzer>"</FeldBegrenzer>			<!-- field delimiter -->
+		<WdhlTrenner>;</WdhlTrenner>				<!-- seperator for repeated content in one field; e.g.: "email 1; email 2; email 3; ..." -->
+		<SpaltenModus>HEADER</SpaltenModus>			<!-- column mode HEADER, NUMERISCH, ABC -->
+		<Charset>UTF-8</Charset>
+	</ReaderModul>
+
+	<ImportSection datensatztyp="InvP">
+		<Referenz>rfInPrt</Referenz>				<!-- reference to find datasets if update is necessary -->
+		<Feld>rfInPrt=getChar('inventory_id')+'-'+getChar('part_num')+'-'+getChar('color_id')+'-'+getChar('is_spare')</Feld>
+		<Feld>lInPInv=getChar('inventory_id')</Feld>
+		<Feld>lInPPrt=getChar('part_num')</Feld>
+		<Feld>lInPCol=getChar('color_id')</Feld>
+		<Feld>InPQty=getChar('quantity')</Feld>
+		<Feld>InPSpr=getChar('is_spare')</Feld>
+	</ImportSection>
+
+</CtxImport>
