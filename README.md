@@ -20,13 +20,38 @@ To import this model you need the database configuration files with several UniP
 database configuration files (CortexDB with UniPlex-Client)
 -----------------------------------------------------------
 
-You'll find the import-function in the system configuration of the UniPlex in thebottom left ("import" button).
+You'll find the import-function in the system configuration of the UniPlex at the bottom left ("import" button). Import the following file (you'll find it in the subdirectory client-configuration`):
 
-![./client-configuration/UniPlex-config-export-LegoDB-v.1.0-20171222.tar.gz](./client-configuration/UniPlex-config-export-LegoDB-v.1.0-20171222.tar.gz)
+	client-configuration/UniPlex-config-export-LegoDB-v.1.0-20171222.tar.gz
 
-If you installed the plugin for the dashboard admin tool, then you can also import a simple dashboard configuration.
+Please note that some fields can not be imported or changed. These are systems fields without any rights for users. The import log will show you a corresponding note.
 
-![./client-configuration/UniPlex-Dashboard-LegoDB-Analysis-v.1.0-20171222.tar.gz](./client-configuration/UniPlex-Dashboard-LegoDB-Analysis-v.1.0-20171222.tar.gz)
+	#Usr - access denied
+	#Vus - access denied
+	#Dsh - access denied
+	#Fil - access denied
+	#Rec - access denied
+	#Txt - access denied
+	#Vfd - access denied
+	#Grp - access denied
+	#Cpy - access denied
+	#Lst - access denied
+	#Obj - access denied
+	#OFE - access denied
+	#Vue - access denied
+	#Prt - access denied
+	#Txa - access denied
+	#Sel - access denied
+	#Stu - access denied
+	#Src - access denied
+	#Ter - access denied
+	#Clp - access denied
+
+
+
+If you installed the plugin for the dashboard admin tool, you can also import a simple dashboard configuration.
+
+	client-configuration/UniPlex-Dashboard-LegoDB-Analysis-v.1.0-20171222.tar.gz
 
 The templates configuration includes the following UniPlex configuration:
 
