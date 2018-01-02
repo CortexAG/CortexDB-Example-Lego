@@ -51,38 +51,38 @@ fields
 ------
 **In the case you can't import the database fields, you need to configure the fields manually. You can also import the fields (json-file) with the tool `remadm`**
 
-| internal field (synonym)   | name                   | comment                                                           | type   | length | 
-| -------------------------- | ---------------------- | ----------------------------------------------------------------- | ------ | ------ | 
-| CatNam                     | Category name          | category name                                                     | C      | 220  |
-| ColIsTr                    | is trans               |                                                                   | C      | 220  |
-| ColNam                     | Name                   | colour name                                                       | C      | 220  |
-| ColRGB                     | RGB                    | rgb code for colour                                               | C      | 220  |
-| IDcat                      | ID                     | ID for category                                                   | C      | 220  |
-| IDCol                      | ID                     | ID for colour                                                     | C      | 220  |
-| IDInv                      | ID                     | ID for inventory                                                  | C      | 220  |
-| IDtheme                    | ID                     | ID for theme                                                      | C      | 220  |
-| InPQty                     | Quantity               | quantity of parts in inventory                                    | N      | 0  |
-| InPSpr                     | is spare               | is a spare part                                                   | C      | 220  |
-| InvVer                     | Version                | version of inventory                                              | C      | 220  |
-| IStQty                     | Quantity               | quantity in inventory set                                         | N      | 0  |
-| lInPCol                    | Colour                 | link field for inventory parts to colour                          | I      | 220  |
-| lInPInv                    | inventory id           | link field for inventory parts to inventory                       | I      | 220  |
-| lInPPrt                    | Part                   | link field for inventory parts to part                            | I      | 220  |
-| lInvSet                    | Set                    | link field for inventory to set                                   | I      | 220  |
-| lIStInv                    | inventory id           | link field for inventory set to inventory                         | I      | 220  |
-| lIStSet                    | Set                    | link field for inventory set to set                               | I      | 220  |
-| lPrtCat                    | Category ID            | link field for part-to-category links                             | I      | 220  |
-| lSetThm                    | Theme                  | link field for set-to-theme links                                 | I      | 220  |
-| lThmThm                    | Theme parent ID        | link field for theme-to-theme links                               | I      | 220  |
-| PrtNam                     | Name                   | part name                                                         | C      | 220  |
-| PrtNum                     | Part number            | Part number                                                       | C      | 220  |
-| rfInPrt                    | Reference Inv. Parts   | reference field to save and find unique inventory part datasets   | C      | 220  |
-| rfInSet                    | Reference Inv. Sets    | reference field to save and find unique inventory set datasets    | C      | 220  |
-| SetName                    | Name                   | set name                                                          | C      | 220  |
-| SetNPrt                    | Number of parts        | number of parts                                                   | N      | 0  |
-| SetNum                     | Set number             | set number                                                        | C      | 220  |
-| SetYear                    | Year                   | year                                                              | C      | 220  |
-| ThmNam                     | Theme name             | theme name                                                        | C      | 220  |
+| internal field (synonym) | name                 | comment                                                         | type | length | 
+| ------------------------ | -------------------- | --------------------------------------------------------------- | ---- | ------ | 
+| CatNam                   | Category name        | category name                                                   | C    | 220    |
+| ColIsTr                  | is trans             |                                                                 | C    | 220    |
+| ColNam                   | Name                 | colour name                                                     | C    | 220    |
+| ColRGB                   | RGB                  | rgb code for colour                                             | C    | 220    |
+| IDcat                    | ID                   | ID for category                                                 | C    | 220    |
+| IDCol                    | ID                   | ID for colour                                                   | C    | 220    |
+| IDInv                    | ID                   | ID for inventory                                                | C    | 220    |
+| IDtheme                  | ID                   | ID for theme                                                    | C    | 220    |
+| InPQty                   | Quantity             | quantity of parts in inventory                                  | N    | 0      |
+| InPSpr                   | is spare             | is a spare part                                                 | C    | 220    |
+| InvVer                   | Version              | version of inventory                                            | C    | 220    |
+| IStQty                   | Quantity             | quantity in inventory set                                       | N    | 0      |
+| lInPCol                  | Colour               | link field for inventory parts to colour                        | I    | 220    |
+| lInPInv                  | inventory id         | link field for inventory parts to inventory                     | I    | 220    |
+| lInPPrt                  | Part                 | link field for inventory parts to part                          | I    | 220    |
+| lInvSet                  | Set                  | link field for inventory to set                                 | I    | 220    |
+| lIStInv                  | inventory id         | link field for inventory set to inventory                       | I    | 220    |
+| lIStSet                  | Set                  | link field for inventory set to set                             | I    | 220    |
+| lPrtCat                  | Category ID          | link field for part-to-category links                           | I    | 220    |
+| lSetThm                  | Theme                | link field for set-to-theme links                               | I    | 220    |
+| lThmThm                  | Theme parent ID      | link field for theme-to-theme links                             | I    | 220    |
+| PrtNam                   | Name                 | part name                                                       | C    | 220    |
+| PrtNum                   | Part number          | Part number                                                     | C    | 220    |
+| rfInPrt                  | Reference Inv. Parts | reference field to save and find unique inventory part datasets | C    | 220    |
+| rfInSet                  | Reference Inv. Sets  | reference field to save and find unique inventory set datasets  | C    | 220    |
+| SetName                  | Name                 | set name                                                        | C    | 220    |
+| SetNPrt                  | Number of parts      | number of parts                                                 | N    | 0      |
+| SetNum                   | Set number           | set number                                                      | C    | 220    |
+| SetYear                  | Year                 | year                                                            | C    | 220    |
+| ThmNam                   | Theme name           | theme name                                                      | C    | 220    |
 
 
 To import the fields manually use the tool `remadm` and import the json-file from the subdirectory `client-configuration`
