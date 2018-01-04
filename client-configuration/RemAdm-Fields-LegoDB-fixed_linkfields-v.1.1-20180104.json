@@ -1,0 +1,562 @@
+{
+  "@IStInv": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "inventory id",
+        "Com": ""
+      }
+    ]
+  },
+  "@IStSet": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Set",
+        "Com": ""
+      }
+    ]
+  },
+  "@InPCol": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Colour",
+        "Com": ""
+      }
+    ]
+  },
+  "@InPInv": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "inventory id",
+        "Com": ""
+      }
+    ]
+  },
+  "@InPPrt": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Part",
+        "Com": ""
+      }
+    ]
+  },
+  "@InvSet": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Set",
+        "Com": ""
+      }
+    ]
+  },
+  "@PrtCat": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Category ID",
+        "Com": ""
+      }
+    ]
+  },
+  "@SetThm": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Theme",
+        "Com": ""
+      }
+    ]
+  },
+  "@ThmThm": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Theme parent ID",
+        "Com": ""
+      }
+    ]
+  },
+  "CatNam": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Category name",
+        "Com": ""
+      }
+    ]
+  },
+  "ColIsTr": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "is trans",
+        "Com": ""
+      }
+    ]
+  },
+  "ColNam": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Name",
+        "Com": ""
+      }
+    ]
+  },
+  "ColRGB": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "RGB",
+        "Com": ""
+      }
+    ]
+  },
+  "IDCol": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "ID",
+        "Com": ""
+      }
+    ]
+  },
+  "IDInv": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "ID",
+        "Com": ""
+      }
+    ]
+  },
+  "IDcat": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "ID",
+        "Com": ""
+      }
+    ]
+  },
+  "IDtheme": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "ID",
+        "Com": ""
+      }
+    ]
+  },
+  "INBXc": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 100,
+    "FTyp": "C",
+    "Group": "~System",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Inbox-Kategorie",
+        "Com": ""
+      }
+    ]
+  },
+  "INBXf": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 64,
+    "FTyp": "B",
+    "Group": "~System",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Inbox-Datei",
+        "Com": ""
+      }
+    ]
+  },
+  "INBXs": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 1,
+    "FTyp": "C",
+    "Group": "~System",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Inbox-Status",
+        "Com": ""
+      }
+    ]
+  },
+  "INBXt": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 0,
+    "FTyp": "T",
+    "Group": "~System",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Inbox-Zeitpunkt",
+        "Com": ""
+      }
+    ]
+  },
+  "INBXu": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "I",
+    "Group": "~System",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Inbox-User",
+        "Com": ""
+      }
+    ]
+  },
+  "IStQty": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 0,
+    "FTyp": "N",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Quantity",
+        "Com": ""
+      }
+    ]
+  },
+  "InPQty": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 0,
+    "FTyp": "N",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Quantity",
+        "Com": ""
+      }
+    ]
+  },
+  "InPSpr": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "is spare",
+        "Com": ""
+      }
+    ]
+  },
+  "InvVer": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Version",
+        "Com": ""
+      }
+    ]
+  },
+  "PrtNam": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Name",
+        "Com": ""
+      }
+    ]
+  },
+  "PrtNum": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Part number",
+        "Com": ""
+      }
+    ]
+  },
+  "SetNPrt": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 0,
+    "FTyp": "N",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Number of parts",
+        "Com": ""
+      }
+    ]
+  },
+  "SetName": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Name",
+        "Com": ""
+      }
+    ]
+  },
+  "SetNum": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Set number",
+        "Com": ""
+      }
+    ]
+  },
+  "SetYear": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Year",
+        "Com": ""
+      }
+    ]
+  },
+  "ThmNam": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Theme name",
+        "Com": ""
+      }
+    ]
+  },
+  "rfInPrt": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Reference Inv. Parts",
+        "Com": ""
+      }
+    ]
+  },
+  "rfInSet": {
+    "BTyp": 0,
+    "WFlag": 0,
+    "FLen": 220,
+    "FTyp": "C",
+    "Group": "LegoDB",
+    "FCode": 0,
+    "Attrib": "",
+    "Lang": [
+      {
+        "ID": 1,
+        "Name": "Reference Inv. Sets",
+        "Com": ""
+      }
+    ]
+  }
+}

@@ -11,9 +11,13 @@ After the import you have a complete datamodel with data, predefined selections,
 Database schema
 ---------------
 
-This schema shows the data objects in the CortexDB and the model behind the fields and dataset types in the CortexDB UniPlex.
+This schema shows the data model of the Lego source files.
 
-![./ERM-Schema-LegoDB-201707.png](./ERM-Schema-LegoDB-201707.png "database schema")
+![./ERM-LegoDB.png](./ERM-LegoDB.png "database schema")
+
+To compare the source with the CortexDB the following schema shows the objects in the database and the model behind the fields and dataset types in the CortexUniPlex.
+
+![./ERM-Lego-CortexUniplex-model.png](./ERM-Lego-CortexUniplex-model.png "database schema")
 
 To import this model you need the database configuration files with several UniPlex configurations.
 
@@ -65,15 +69,15 @@ fields
 | InPSpr                   | is spare             | is a spare part                                                 | C    | 220    |
 | InvVer                   | Version              | version of inventory                                            | C    | 220    |
 | IStQty                   | Quantity             | quantity in inventory set                                       | N    | 0      |
-| lInPCol                  | Colour               | link field for inventory parts to colour                        | I    | 220    |
-| lInPInv                  | inventory id         | link field for inventory parts to inventory                     | I    | 220    |
-| lInPPrt                  | Part                 | link field for inventory parts to part                          | I    | 220    |
-| lInvSet                  | Set                  | link field for inventory to set                                 | I    | 220    |
-| lIStInv                  | inventory id         | link field for inventory set to inventory                       | I    | 220    |
-| lIStSet                  | Set                  | link field for inventory set to set                             | I    | 220    |
-| lPrtCat                  | Category ID          | link field for part-to-category links                           | I    | 220    |
-| lSetThm                  | Theme                | link field for set-to-theme links                               | I    | 220    |
-| lThmThm                  | Theme parent ID      | link field for theme-to-theme links                             | I    | 220    |
+| @InPCol                  | Colour               | link field for inventory parts to colour                        | I    | 220    |
+| @InPInv                  | inventory id         | link field for inventory parts to inventory                     | I    | 220    |
+| @InPPrt                  | Part                 | link field for inventory parts to part                          | I    | 220    |
+| @InvSet                  | Set                  | link field for inventory to set                                 | I    | 220    |
+| @IStInv                  | inventory id         | link field for inventory set to inventory                       | I    | 220    |
+| @IStSet                  | Set                  | link field for inventory set to set                             | I    | 220    |
+| @PrtCat                  | Category ID          | link field for part-to-category links                           | I    | 220    |
+| @SetThm                  | Theme                | link field for set-to-theme links                               | I    | 220    |
+| @ThmThm                  | Theme parent ID      | link field for theme-to-theme links                             | I    | 220    |
 | PrtNam                   | Name                 | part name                                                       | C    | 220    |
 | PrtNum                   | Part number          | Part number                                                     | C    | 220    |
 | rfInPrt                  | Reference Inv. Parts | reference field to save and find unique inventory part datasets | C    | 220    |
@@ -88,6 +92,11 @@ fields
 To import the fields manually use the tool `remadm` and import the json-file from the subdirectory `client-configuration`
 
 	RemAdm-Fields-LegoDB-v.1.0-20171222.json
+	
+### Link fields
+
+If you need to select linked datasets with parent links, the link fields has to be the parameter "backward index" (will be renamed with the next version). That means you can "jump" between the dataset links forwards and backwards.
+
 
 dashboard
 ---------
@@ -160,4 +169,15 @@ Do this for each xml-import-configuration in the sub directory `./import-config`
 After the import start the linker. This configuration creates the links between the datasets. 
 
 	java -jar Implex.jar -l ./www/import-config/Linker.xml
+
+Scripts for import and linker
+-----------------------------
+
+With a Mac OS or Unix system you can use the script for the import. It calls all import configuration files and the linker configuration
+
+	start-import.sh
+
+If you like to delete all datasets, you can use the delete script
+	
+	start-delete.sh
 

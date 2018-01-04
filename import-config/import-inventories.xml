@@ -22,7 +22,7 @@
 		<Referenz>IDInv</Referenz>					<!-- reference to find datasets if update is necessary -->
 		<Feld>IDInv=getChar('id')</Feld>
 		<Feld>InvVer=getChar('version')</Feld>
-		<Feld>lInvSet=getChar('set_num')</Feld>
+		<Feld>@InvSet=getChar('set_num')</Feld>
 	</ImportSection>
 
 </CtxImport>

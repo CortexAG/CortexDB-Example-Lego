@@ -22,7 +22,7 @@
 		<Referenz>PrtNum</Referenz>					<!-- reference to find datasets if update is necessary -->
 		<Feld>PrtNum=getChar('part_num')</Feld>
 		<Feld>PrtNam=substring(getChar('name'), 0, 220)</Feld> 	<!-- name of one part is too long, therefor cut at 220 byte -->
-		<Feld>lPrtCat=getChar('part_cat_id')</Feld>
+		<Feld>@PrtCat=getChar('part_cat_id')</Feld>
 	</ImportSection>
 
 </CtxImport>

@@ -23,7 +23,7 @@
 		<Feld>SetNum=getChar('set_num')</Feld>
 		<Feld>SetName=getChar('name')</Feld>
 		<Feld>SetYear=getChar('year')</Feld>
-		<Feld>lSetThm=getChar('theme_id')</Feld>
+		<Feld>@SetThm=getChar('theme_id')</Feld>
 		<Feld>SetNPrt=getChar('num_parts')</Feld>
 	</ImportSection>
 

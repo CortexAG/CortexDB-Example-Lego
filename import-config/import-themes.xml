@@ -22,7 +22,7 @@
 		<Referenz>IDtheme</Referenz>					<!-- reference to find datasets if update is necessary -->
 		<Feld>IDtheme=getChar('id')</Feld>
 		<Feld>ThmNam=getChar('name')</Feld>
-		<Feld>lThmThm=getChar('parent_id')</Feld>
+		<Feld>@ThmThm=getChar('parent_id')</Feld>
 	</ImportSection>
 
 </CtxImport>

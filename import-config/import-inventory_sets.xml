@@ -21,8 +21,8 @@
 	<ImportSection datensatztyp="ISet">
 		<Referenz>rfInSet</Referenz>				<!-- reference to find datasets if update is necessary -->
 		<Feld>rfInSet=getChar('inventory_id')+'-'+getChar('set_num')</Feld>
-		<Feld>lIStInv=getChar('inventory_id')</Feld>
-		<Feld>lIStSet=getChar('set_num')</Feld>
+		<Feld>@IStInv=getChar('inventory_id')</Feld>
+		<Feld>@IStSet=getChar('set_num')</Feld>
 		<Feld>IStQty=getChar('quantity')</Feld>
 	</ImportSection>
 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CtxImport>
+
+	<!--
+	
+	
+	!!! THIS CONFIGURATION IS FOR DELETING ALL DATASETS IN THE LEGO DB !!!
+	
+		
+	!!! YOU MUST DO A REORGANIZATION WITH THE ADMIN TOOL (REMOTE ADMIN) OF THE DATABASE, IF YOU DELETE A LOT OF DATASETS AND A BACKUP AND RECOVERY TO REDUCE THE FILE SIZE OF THE DATABASE FILE !!!
+	
+	-->
+
+
+	<Global>
+		<LoginIP>localhost</LoginIP>				<!-- IP or server name -->
+		<LoginPort>29000</LoginPort>				<!-- database port; also via parameter for implex available -->
+		<LoginUser>admin</LoginUser>				<!-- user -->
+		<LoginPW>admin</LoginPW>					<!-- password -->
+		<ImportModus>u</ImportModus>				<!-- import mode; n, u, nu/un for new and/or update-->
+		<DeltaListe>l</DeltaListe>					<!-- DeltaListe means that all datasets with no change will be deleted ("l") -->
+	</Global>
+
+	<ReaderModul typ="csv">
+		<Dateiname>./www/import-delete-config/delete.csv</Dateiname>		<!-- relative path to implex in bin directory -->
+		<FeldTrenner>,</FeldTrenner>				<!-- field separator -->
+		<FeldBegrenzer>"</FeldBegrenzer>			<!-- field delimiter -->
+		<WdhlTrenner>;</WdhlTrenner>				<!-- seperator for repeated content in one field; e.g.: "email 1; email 2; email 3; ..." -->
+		<SpaltenModus>HEADER</SpaltenModus>			<!-- column mode HEADER, NUMERISCH, ABC -->
+		<Charset>UTF-8</Charset>
+	</ReaderModul>
+
+	<ImportSection datensatztyp="Colr">
+		<Referenz>IDCol</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>IDCol=getChar('delete')</Feld>		<!-- the column 'delete' has no datasets, all datasets in DB will be deleted -->
+	</ImportSection>
+
+	<ImportSection datensatztyp="Invt">
+		<Referenz>IDInv</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>IDInv=getChar('delete')</Feld>
+	</ImportSection>
+	
+	<ImportSection datensatztyp="PCat">
+		<Referenz>IDcat</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>IDcat=getChar('delete')</Feld>
+	</ImportSection>
+	
+	<ImportSection datensatztyp="Thme">
+		<Referenz>IDtheme</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>IDtheme=getChar('delete')</Feld>
+	</ImportSection>
+	
+	<ImportSection datensatztyp="Part">
+		<Referenz>PrtNum</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>PrtNum=getChar('delete')</Feld>
+	</ImportSection>
+	
+	<ImportSection datensatztyp="Sets">
+		<Referenz>SetNum</Referenz>					<!-- reference to find datasets if update is necessary -->
+		<Feld>SetNum=getChar('delete')</Feld>
+	</ImportSection>
+
+	<ImportSection datensatztyp="InvP">
+		<Referenz>rfInPrt</Referenz>				<!-- reference to find datasets if update is necessary -->
+		<Feld>rfInPrt=getChar('delete')</Feld>
+	</ImportSection>
+	
+	<ImportSection datensatztyp="ISet">
+		<Referenz>rfInSet</Referenz>				<!-- reference to find datasets if update is necessary -->
+		<Feld>rfInSet=getChar('delete')</Feld>
+	</ImportSection>
+	
+	
+	<!--
+	
+	!!! YOU MUST DO A REORGANIZATION OF THE DATABASE, IF YOU DELETE A LOT OF DATASETS AND A BACKUP AND RECOVERY TO REDUCE THE FILE SIZE OF THE DATABASE FILE !!!
+	
+	-->
+
+</CtxImport>

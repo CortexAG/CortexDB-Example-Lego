@@ -12,25 +12,25 @@
 	<Linker>
 	
 		<!-- link inventory to Set -->
-		<Link>lInvSet=SetNum</Link>
+		<Link>@InvSet=SetNum</Link>
 
 		<!-- link set to theme -->
-		<Link>lSetThm=IDtheme</Link>
+		<Link>@SetThm=IDtheme</Link>
 
 		<!-- link inventory-parts to inventory, part and colour -->
-		<Link>lInPInv=IDInv</Link>
-		<Link>lInPPrt=PrtNum</Link>
-		<Link>lInPCol=IDCol</Link>
+		<Link>@InPInv=IDInv</Link>
+		<Link>@InPPrt=PrtNum</Link>
+		<Link>@InPCol=IDCol</Link>
 
 		<!-- link inventory-set to inventory an set -->
-		<Link>lIStInv=IDInv</Link>
-		<Link>lIStSet=SetNum</Link>
+		<Link>@IStInv=IDInv</Link>
+		<Link>@IStSet=SetNum</Link>
 
 		<!-- link part to part-category -->
-		<Link>lPrtCat=IDcat</Link>
+		<Link>@PrtCat=IDcat</Link>
 
 		<!-- link theme to theme-parent -->
-		<Link>lThmThm=IDtheme</Link>
+		<Link>@ThmThm=IDtheme</Link>
 		
 	</Linker>
   

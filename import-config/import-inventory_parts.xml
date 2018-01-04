@@ -21,9 +21,9 @@
 	<ImportSection datensatztyp="InvP">
 		<Referenz>rfInPrt</Referenz>				<!-- reference to find datasets if update is necessary -->
 		<Feld>rfInPrt=getChar('inventory_id')+'-'+getChar('part_num')+'-'+getChar('color_id')+'-'+getChar('is_spare')</Feld>
-		<Feld>lInPInv=getChar('inventory_id')</Feld>
-		<Feld>lInPPrt=getChar('part_num')</Feld>
-		<Feld>lInPCol=getChar('color_id')</Feld>
+		<Feld>@InPInv=getChar('inventory_id')</Feld>
+		<Feld>@InPPrt=getChar('part_num')</Feld>
+		<Feld>@InPCol=getChar('color_id')</Feld>
 		<Feld>InPQty=getChar('quantity')</Feld>
 		<Feld>InPSpr=getChar('is_spare')</Feld>
 	</ImportSection>
