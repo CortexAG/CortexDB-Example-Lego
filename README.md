@@ -159,5 +159,5 @@ Do this for each xml-import-configuration in the sub directory `./import-config`
 
 After the import start the linker. This configuration creates the links between the datasets. 
 
-	java -jar Implex.jar -i ./www/import-config/Linker.xml
+	java -jar Implex.jar -l ./www/import-config/Linker.xml
 
