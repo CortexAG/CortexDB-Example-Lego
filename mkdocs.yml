@@ -1,0 +1,67 @@
+site_name: 'CortexPlatform Online-Documentation'
+site_description: 'CortexPlatform Online-Documentation'
+site_author: 'Cortex AG'
+theme:
+  name: 'material'
+  logo: 'private/logo.png'
+  favicon: 'private/favicon.ico'
+  language: 'de'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  feature:
+    tabs: false
+markdown_extensions:
+    - admonition
+extra_css:
+    - 'css/extra.css'
+extra:
+    social:
+        - type: 'github'
+          link: 'https://github.com/cortexag'
+        - type: 'twitter'
+          link: 'https://twitter.com/cortexag'
+        - type: 'linkedin'
+          link: 'https://www.linkedin.com/showcase/cortexag'
+pages:
+    - Start: 'index.md'
+    - CortexPlattform: 'de/CortexPlatform/CortexPlatformConcept.md'
+    - CortexDB: 
+        - Einführung: 'de/CortexDB/CortexDB.md'
+        - Remote-Admin: 'de/CortexDB/CortexDB-RemoteAdmin.md'
+        - Datensicherheit: 'de/CortexDB/CortexDB-Security.md'
+        - Datensicherung: 'de/CortexDB/CortexDB-BackupRestore.md'
+    - CortexUniplex: 
+        - Grundlagen: 'de/CortexUniplex/CortexUniplex-Basics.md'
+        - Vorlagen: 'de/CortexUniplex/CortexUniplex-Templates.md'
+        - Datenbank-Schema: 'de/CortexUniplex/CortexUniplex-DBSchema.md'
+        - Funktionen:
+            - Listen: 'de/CortexUniplex/CortexUniplex-Functions-Lists.md'
+            - Portale: 'de/CortexUniplex/CortexUniplex-Functions-Portals.md'
+            - Dashboard: 'de/CortexUniplex/CortexUniplex-Functions-Dashboard.md'
+            - Suchmöglichkeiten: 'de/CortexUniplex/CortexUniplex-Functions-SearchConfig.md'
+            - Objektansicht: 'de/CortexUniplex/CortexUniplex-Functions-ObjectViewer.md'
+    - CortexUniplexWebAPI:
+        - WebAPI: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI.md'
+        - WebAPI-Funktionen: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Functions.md'
+        - WebAPI-Select-Funktionen: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Select-Functions.md'
+        - WebAPI-Beispiel-PHP: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-PHP.md'
+        - WebAPI-Beispiel-Python: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-PY.md'
+        - WebAPI-Beispiel-AngularJS: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-Angular.md'
+    - CortexImplex:
+        - Grundlagen: 'de/CortexImplex/CortexImplex-Basics.md'
+        - Import per Plugin: 'de/CortexImplex/CortexImplex-Plugin.md'
+        - manueller Import: 'de/CortexImplex/CortexImplex-by_hand.md'
+        - Java-Erweiterung: 'de/CortexImplex/CortexImplex-Java_Extension.md'
+        - Funktionen und mehr: 'de/CortexImplex/CortexImplex-Functions_and_more.md'
+    - Ergänzungen:
+        - Praxistips: 'de/Additions/practical-tips.md'
+        - Server-Konfiguration: 'de/Additions/Server-ConfigFiles.md'
+        - Fehler-Codes: 'de/Additions/Errorcodes.md'
+        - Fremdbibliotheken: 'de/Additions/Libraries.md'
+    - debug:
+        - Demo content: 'demo-content.md'
+        - Imagelist: '_img-info.md'
