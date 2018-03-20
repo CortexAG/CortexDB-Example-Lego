@@ -5,7 +5,7 @@ theme:
   name: 'material'
   logo: 'private/logo.png'
   favicon: 'private/favicon.ico'
-  language: 'de'
+  language: 'en'
   palette:
     primary: 'indigo'
     accent: 'indigo'
@@ -28,40 +28,74 @@ extra:
           link: 'https://www.linkedin.com/showcase/cortexag'
 pages:
     - Start: 'index.md'
-    - CortexPlattform: 'de/CortexPlatform/CortexPlatformConcept.md'
-    - CortexDB: 
-        - Einführung: 'de/CortexDB/CortexDB.md'
-        - Remote-Admin: 'de/CortexDB/CortexDB-RemoteAdmin.md'
-        - Datensicherheit: 'de/CortexDB/CortexDB-Security.md'
-        - Datensicherung: 'de/CortexDB/CortexDB-BackupRestore.md'
-    - CortexUniplex: 
-        - Grundlagen: 'de/CortexUniplex/CortexUniplex-Basics.md'
-        - Vorlagen: 'de/CortexUniplex/CortexUniplex-Templates.md'
-        - Datenbank-Schema: 'de/CortexUniplex/CortexUniplex-DBSchema.md'
-        - Funktionen:
-            - Listen: 'de/CortexUniplex/CortexUniplex-Functions-Lists.md'
-            - Portale: 'de/CortexUniplex/CortexUniplex-Functions-Portals.md'
-            - Dashboard: 'de/CortexUniplex/CortexUniplex-Functions-Dashboard.md'
-            - Suchmöglichkeiten: 'de/CortexUniplex/CortexUniplex-Functions-SearchConfig.md'
-            - Objektansicht: 'de/CortexUniplex/CortexUniplex-Functions-ObjectViewer.md'
-    - CortexUniplexWebAPI:
-        - WebAPI: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI.md'
-        - WebAPI-Funktionen: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Functions.md'
-        - WebAPI-Select-Funktionen: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Select-Functions.md'
-        - WebAPI-Beispiel-PHP: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-PHP.md'
-        - WebAPI-Beispiel-Python: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-PY.md'
-        - WebAPI-Beispiel-AngularJS: 'de/CortexUniplexWebAPI/CortexUniplexWebAPI-Example-Angular.md'
-    - CortexImplex:
-        - Grundlagen: 'de/CortexImplex/CortexImplex-Basics.md'
-        - Import per Plugin: 'de/CortexImplex/CortexImplex-Plugin.md'
-        - manueller Import: 'de/CortexImplex/CortexImplex-by_hand.md'
-        - Java-Erweiterung: 'de/CortexImplex/CortexImplex-Java_Extension.md'
-        - Funktionen und mehr: 'de/CortexImplex/CortexImplex-Functions_and_more.md'
-    - Ergänzungen:
-        - Praxistips: 'de/Additions/practical-tips.md'
-        - Server-Konfiguration: 'de/Additions/Server-ConfigFiles.md'
-        - Fehler-Codes: 'de/Additions/Errorcodes.md'
-        - Fremdbibliotheken: 'de/Additions/Libraries.md'
-    - debug:
-        - Demo content: 'demo-content.md'
-        - Imagelist: '_img-info.md'
+    - DE:
+        - CortexPlattform: 'de/CortexPlatform/CortexPlatformConcept.md'
+        - CortexDB: 
+            - Einführung: 'de/CortexDB/CortexDB.md'
+            - Remote-Admin: 'de/CortexDB/CortexDB-RemoteAdmin.md'
+            - Datensicherheit: 'de/CortexDB/CortexDB-Security.md'
+            - Datensicherung: 'de/CortexDB/CortexDB-BackupRestore.md'
+        - CortexUniplex: 
+            - Grundlagen: 'de/CortexUniplex/CortexUniplex-Basics.md'
+            - Vorlagen: 'de/CortexUniplex/CortexUniplex-Templates.md'
+            - Datenbank-Schema: 'de/CortexUniplex/CortexUniplex-DBSchema.md'
+            - Funktionen:
+                - Listen: 'de/CortexUniplex/CortexUniplex-Functions-Lists.md'
+                - Portale: 'de/CortexUniplex/CortexUniplex-Functions-Portals.md'
+                - Dashboard: 'de/CortexUniplex/CortexUniplex-Functions-Dashboard.md'
+                - Suchmöglichkeiten: 'de/CortexUniplex/CortexUniplex-Functions-SearchConfig.md'
+                - Objektansicht: 'de/CortexUniplex/CortexUniplex-Functions-ObjectViewer.md'
+        - CortexUniplexAPI:
+            - API: 'de/CortexUniplexAPI/CortexUniplexAPI.md'
+            - API-Funktionen: 'de/CortexUniplexAPI/CortexUniplexAPI-Functions.md'
+            - API-Select-Funktionen: 'de/CortexUniplexAPI/CortexUniplexAPI-Select-Functions.md'
+            - API-Beispiel-PHP: 'de/CortexUniplexAPI/CortexUniplexAPI-Example-PHP.md'
+            - API-Beispiel-Python: 'de/CortexUniplexAPI/CortexUniplexAPI-Example-PY.md'
+            - API-Beispiel-AngularJS: 'de/CortexUniplexAPI/CortexUniplexAPI-Example-Angular.md'
+        - CortexImplex:
+            - Grundlagen: 'de/CortexImplex/CortexImplex-Basics.md'
+            - Import per Plugin: 'de/CortexImplex/CortexImplex-Plugin.md'
+            - manueller Import: 'de/CortexImplex/CortexImplex-by_hand.md'
+            - Java-Erweiterung: 'de/CortexImplex/CortexImplex-Java_Extension.md'
+            - Funktionen und mehr: 'de/CortexImplex/CortexImplex-Functions_and_more.md'
+        - Ergänzungen:
+            - Praxistips: 'de/Additions/practical-tips.md'
+            - Server-Konfiguration: 'de/Additions/Server-ConfigFiles.md'
+            - Fehler-Codes: 'de/Additions/Errorcodes.md'
+            - Fremdbibliotheken: 'de/Additions/Libraries.md'
+    - EN:
+        - CortexPlatform: 'en/CortexPlatform/CortexPlatformConcept.md'
+        - CortexDB: 
+            - Introduction: 'en/CortexDB/CortexDB.md'
+            - Remote-Admin: 'en/CortexDB/CortexDB-RemoteAdmin.md'
+            - Datasecurity: 'en/CortexDB/CortexDB-Security.md'
+            - Dataprotection: 'en/CortexDB/CortexDB-BackupRestore.md'
+        - CortexUniplex: 
+            - Basics: 'en/CortexUniplex/CortexUniplex-Basics.md'
+            - Templates: 'en/CortexUniplex/CortexUniplex-Templates.md'
+            - Database-Schema: 'en/CortexUniplex/CortexUniplex-DBSchema.md'
+            - Functions:
+                - Lists: 'en/CortexUniplex/CortexUniplex-Functions-Lists.md'
+                - Portals: 'en/CortexUniplex/CortexUniplex-Functions-Portals.md'
+                - Dashboard: 'en/CortexUniplex/CortexUniplex-Functions-Dashboard.md'
+                - Searches: 'en/CortexUniplex/CortexUniplex-Functions-SearchConfig.md'
+                - Objektview: 'en/CortexUniplex/CortexUniplex-Functions-ObjectViewer.md'
+        - CortexUniplexAPI:
+            - API: 'en/CortexUniplexAPI/CortexUniplexAPI.md'
+            - API-Functions: 'en/CortexUniplexAPI/CortexUniplexAPI-Functions.md'
+            - API-Select: 'en/CortexUniplexAPI/CortexUniplexAPI-Select-Functions.md'
+            - API-Example-PHP: 'en/CortexUniplexAPI/CortexUniplexAPI-Example-PHP.md'
+            - API-Example-Python: 'en/CortexUniplexAPI/CortexUniplexAPI-Example-PY.md'
+            - API-Example-AngularJS: 'en/CortexUniplexAPI/CortexUniplexAPI-Example-Angular.md'
+        - CortexImplex:
+            - Basics: 'en/CortexImplex/CortexImplex-Basics.md'
+            - Import with plugin: 'en/CortexImplex/CortexImplex-Plugin.md'
+            - Import manually: 'en/CortexImplex/CortexImplex-by_hand.md'
+            - Java-Extension: 'en/CortexImplex/CortexImplex-Java_Extension.md'
+            - Funktions and more: 'en/CortexImplex/CortexImplex-Functions_and_more.md'
+        - Additional information:
+            - Tips: 'en/Additions/practical-tips.md'
+            - Server configuration: 'en/Additions/Server-ConfigFiles.md'
+            - Error Codes: 'en/Additions/Errorcodes.md'
+            - Libraries: 'en/Additions/Libraries.md'
+

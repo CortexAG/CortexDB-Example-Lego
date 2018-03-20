@@ -131,7 +131,7 @@ ad-hoc Berechnungen angezeigt werden. Listen bilden zudem die Grundlage
 für Pivot-Auswertungen und damit auch die Basis für die weiterführende
 Funktionalität Dashboard. Ergänzend dazu  können Listen mit selektierten
 Inhalten über die API für eigene Anwendungen oder Schnittstellen genutzt
-werden (siehe CortexUniplexWebAPI).
+werden (siehe CortexUniplexAPI).
 
 Die Berechtigung zur Bearbeitung und Änderung von Listen kann daher
 erhebliche unerwünschte Effekte nach sich ziehen, wenn Listen geändert
@@ -316,7 +316,7 @@ CortexUniplex-/Datenbank-Funktionen.
 Im Standard werden Plugins für die Administration der Portale und des
 Dashboards, sowie für die Import- und Linker-Konfiguration ausgeliefert.
 Diese können durch eigene, individuelle Plugins erweitert werden, die
-beispielsweise die CortexUniplexWebAPI nutzen.
+beispielsweise die CortexUniplexAPI nutzen.
 
 Jedes Plugin wird als Symbol am linken Fensterrand in der sog.
 "Schnellstartleiste" angezeigt und kann durch einen Mausklick

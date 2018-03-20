@@ -103,7 +103,7 @@ Die Konfigurationen der Felder, Datensatztypen, Listen und Pivots,sowie
 der Portale und Rollenberechtigungen stehen jedem Anwender nach einem
 erneuten Login (oder der Aktualisierung der Anwendung) zur Verfügung.
 Darüberhinaus gelten die genannten Konfigurationen auch durch die
-Benutzung der CortexUniplexWebAPI, da diese den Benutzerkontext
+Benutzung der CortexUniplexAPI, da diese den Benutzerkontext
 berücksichtigt. Die von Ihnen definierten Konfigurtionen haben daher
 weitreichende Auswirkungen.
 

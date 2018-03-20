@@ -11,20 +11,23 @@ project structure
 ```
 mkdocs.yml
 README.md
+theme/
+	material/		# material template for MkDocs from https://squidfunk.github.io/mkdocs-material/
 docs/
 	index.md
 	css/
 		extra.css
-	private/
-		private files for own usage (favicon.ico and logo.png)
-theme/
-	material/
-		material template for MkDocs from https://squidfunk.github.io/mkdocs-material/
-
-# language-depended directories
-
 	de/
 		German documentation as markdown files
 	en/
 		English documentation as markdown files
 ```
+
+todo
+----
+
+- images in English
+- new screenshots
+- JS-API
+- Examples for nodeJS
+

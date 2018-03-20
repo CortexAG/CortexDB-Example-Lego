@@ -208,15 +208,15 @@ Verfügung.
 
 Beispiel einer csv-Datei (per Semikolon getrennte Werte):
 
-    „Name“;“Vorname“;“Ort“;“HobbyNr“;“Hobbies“
-    „Meier“;“Max“;“Hamburg“;“1,2“;“Fußball,Hockey“
-    „Müller“;“Sandra“;“Bielefeld“;“1,2“;“Tanzen,Reiten“
+    "Name";"Vorname";"Ort";"HobbyNr";"Hobbies"
+    "Meier";"Max";"Hamburg";"1,2";"Fußball,Hockey"
+    "Müller";"Sandra";"Bielefeld";"1,2";"Tanzen,Reiten"
 
 Beispiel einer csv-Datei (per Tab getrennte Werte):
 
-    „Name“    “Vorname“    “Ort“    “HobbyNr“    “Hobbies“
-    „Meier“    “Max“    “Hamburg“    “1,2“    “Fußball,Hockey“
-    „Müller“    “Sandra“    “Bielefeld“    “1,2“    “Tanzen,Reiten“
+    "Name"    "Vorname"    "Ort"    "HobbyNr"    "Hobbies"
+    "Meier"    "Max"    "Hamburg"    "1,2"    "Fußball,Hockey"
+    "Müller"    "Sandra"    "Bielefeld"    "1,2"    "Tanzen,Reiten"
 
 ### Reader-Modul für csv-Dateien
 

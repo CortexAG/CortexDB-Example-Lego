@@ -19,7 +19,7 @@ Für die grafische Darstellung stehen bei dieser Funktion folgende
 Diagrammtypen zur Auswahl: Linien-, Kreis-/Ring-, Säulen-Diagramme und
 Tachos. Die Aufbereitung der Grafiken basiert auf der Bibliothek
 ["D3js"](https://github.com/mbostock/d3/wiki/Gallery) und ist daher
-für künftige Entwicklungen ausbaubar. Über die CortexUniplexWebAPI
+für künftige Entwicklungen ausbaubar. Über die CortexUniplexAPI
 kann zudem ein bereits optimiertes Format für die Nutzung von D3js
 ausgegeben werden, so dass auch andere Entwickler diese Bibliothek für
 eigene Anwendungen verwenden können.

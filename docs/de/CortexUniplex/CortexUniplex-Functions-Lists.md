@@ -11,7 +11,7 @@ berechneten Inhalten (JavaScript in Listen), die ggf. zusätzlich als Pivot-Ausg
 
 Ergänzend dazu handelt es sich bei Listenergebnissen um die Grundlage
 für die Darstellung der Daten in einem Dashboard und um die Basis für
-die CortexUniplexWebAPI, damit die Informationen auch für andere Anwendungen bereitgestellt werden können.
+die CortexUniplexAPI, damit die Informationen auch für andere Anwendungen bereitgestellt werden können.
 
 Bei den Listen handelt es sich daher um eine der wichtigsten Funktionen,
 weil von deren Konfiguration nicht nur einfache Darstellungen, sondern

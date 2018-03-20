@@ -90,7 +90,6 @@ findFirst(in, match, startPos)
     Diese Funktionen ist erst ab Implex-Version 4.0 verfügbar und findet die letzte Position eines Zeichens (optional ab einer bestimten Stelle) und gibt die Position als Int zurück
 ``` 
 findLast(in, match)
-findLast(in, match, startPos)
 ``` 
 
 Liefert then, wenn ifclause == true, sonst elsedo

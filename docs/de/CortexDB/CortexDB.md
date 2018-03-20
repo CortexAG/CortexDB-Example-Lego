@@ -56,7 +56,7 @@ Für die Inbetriebnahme einer CortexDB ist ein Programmpaket aller zusammengehö
 3.  Import der Lizenzdatei
 4.  Anlegen des System-Benutzers "php" (mit dem Recht "ctxphp")
 5.  Anlegen weiterer Benutzer
-6.  Import der php-Plugins(z.B. CortexUniplex, CortexUniplexWebAPI, \...)
+6.  Import der php-Plugins(z.B. CortexUniplex, CortexUniplexAPI, \...)
 
 ### Windows
 
@@ -137,6 +137,8 @@ angelegt.
 
 Je nach Linux-Version ist die Einrichtung automatisch möglich (t.B. Debian Linux) oder muss manuell angepasst werden (z.B. Red Hat).
 
+!!! hint "Repository für Linux Pakete"
+    Die Repositories für Linux sind nur verfügbar für eine lizenzierte CortexDB.
 
 Aktualisierung (Update)
 -----------------------

@@ -6,7 +6,7 @@ Grundsätzlich arbeitet die CortexDB schemalos. Zur Ergänzung von
 Datensätzen mit neuen Inhalten ist die Anlage neuer Felder daher nicht
 zwingend erforderlich.
 
-Dennoch ist dieses notwendig, wenn mit der Anwendung CortexUniplex und dem Import-Werkzeug `CortexImplex` gearbeitet wird. Denn mit diesen beiden Werkzeugen erfolgt die Bildung einer grundlegenden Struktur für spezifische Anwendungsfälle. Weiterhin erfolgt die Nutzung dieser Strukturen mit Hilfe der Standardfunktionen und der CortexUniplexWebAPI, so dass für Softwareentwickler die Entwicklung vereinfacht und beschleunigt wird (z.B. Konzept für Datensatzrechte).
+Dennoch ist dieses notwendig, wenn mit der Anwendung CortexUniplex und dem Import-Werkzeug `CortexImplex` gearbeitet wird. Denn mit diesen beiden Werkzeugen erfolgt die Bildung einer grundlegenden Struktur für spezifische Anwendungsfälle. Weiterhin erfolgt die Nutzung dieser Strukturen mit Hilfe der Standardfunktionen und der CortexUniplexAPI, so dass für Softwareentwickler die Entwicklung vereinfacht und beschleunigt wird (z.B. Konzept für Datensatzrechte).
 
 Vorgehensweise bei Feldern
 --------------------------

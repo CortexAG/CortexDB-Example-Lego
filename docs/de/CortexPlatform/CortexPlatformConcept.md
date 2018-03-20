@@ -1,15 +1,15 @@
 Die CortexPlattform
 ===================
 
-Die CortexPlattform besteht aus einer Multi-Model NoSQL-Datenbank (CortexDB), einer universellen Anwendung ([CortexUniplex](../CortexUniplex/CortexUniplex-Basics/)), Datenimport-Werkzeugen ([CortexImplex](../CortexImplex/CortexImplex-Basics/) und CortexJSAutoimport) und einer Sammlung von Werkzeugen - z.B. [CortexUniplexWebAPI](../CortexUniplexWebAPI/CortexUniplexWebAPI/) (JSON HTTP API). Entwickler und Anwender setzen damit sehr einfach und schnell neue Anwendungen, Datenanalysen und andere Anforderungen um. Das gilt sowohl für den Fachbereich, wie auch für Entwickler, die einen schnellen und einfachen Datenbankzugriff benötigen, ohne sich mit der eigentlichen Datenbanktechnik auseinanderzusetzen.
+Die CortexPlattform besteht aus einer Multi-Model NoSQL-Datenbank (CortexDB), einer universellen Anwendung ([CortexUniplex](../CortexUniplex/CortexUniplex-Basics/)), Datenimport-Werkzeugen ([CortexImplex](../CortexImplex/CortexImplex-Basics/) und CortexJSAutoimport) und einer Sammlung von Werkzeugen - z.B. [CortexUniplexAPI](../CortexUniplexAPI/CortexUniplexAPI/) (JSON HTTP API). Entwickler und Anwender setzen damit sehr einfach und schnell neue Anwendungen, Datenanalysen und andere Anforderungen um. Das gilt sowohl für den Fachbereich, wie auch für Entwickler, die einen schnellen und einfachen Datenbankzugriff benötigen, ohne sich mit der eigentlichen Datenbanktechnik auseinanderzusetzen.
 
-![Version:3.0.14;todo:check and fix;Date:15.10.2016; Name:CortexPlatform.Schaubild](CortexPlatform/CortexPlatform.png)
+![Version:3.0.14;todo:check and fix;Date:15.10.2016; Name:CortexPlatform.Schaubild](CortexPlatform.png)
 
 Das Gesamtkonzept beinhaltet neben dem Datenbankserver auch darauf basierende Werkzeuge für den sofortigen Einsatz, um
 
 -   Datenmodelle für beliebige Anwendungen einfach zu konfigurieren
 -   Datenimporte aus anderen Systemen sicherzustellen
--   und per Entwicklerschnittstelle ([CortexUniplexWebAPI](../CortexUniplexWebAPI/CortexUniplexWebAPI/)) einen möglichst einfachen Datenbankzugriff zu gewähren.
+-   und per Entwicklerschnittstelle ([CortexUniplexAPI](../CortexUniplexAPI/CortexUniplexAPI/)) einen möglichst einfachen Datenbankzugriff zu gewähren.
 
 Dabei ist es für die Realisierungsphase unerheblich, ob Sie eine individuelle Anwendung für wenige tausend Datensätze erstellen wollen oder ob Sie eine Datenbank für umfangreiche und/oder komplexe Strukturen benötigen (z.B. *big data*).
 
@@ -135,7 +135,7 @@ der ID-Listen (also des Indexes).
 
 Die Konfiguration solcher und weiterführender Selektionen erfolgt in der
 Standard-Anwendung  und kann über die dazugehörende API
-(CortexUniplexWebAPI) genutzt werden.
+(CortexUniplexAPI) genutzt werden.
 
 Multi Model 
 -----------
